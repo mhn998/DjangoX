@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     # Local
     'accounts',
     'pages',
+    'snacks',
 ]
 
 # MIDDLEWARE
@@ -119,7 +120,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-# STATIC
+# STATICstaticfile
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#static-root
 STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
